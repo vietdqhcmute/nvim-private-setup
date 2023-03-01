@@ -48,3 +48,10 @@ vim.keymap.set("n", "<leader>mr", "<cmd>CellularAutomaton make_it_rain<CR>");
 vim.keymap.set("n", "<leader><leader>", function()
     vim.cmd("so")
 end)
+
+vim.keymap.set("v", "<C-c>", '"+y')
+vim.keymap.set("n", "<C-a>", "ggVG")
+vim.keymap.set("n", "<C-s>", ":w<CR>")
+
+
+
