@@ -8,6 +8,8 @@ vim.o.shiftwidth = 2
 vim.o.background = "dark" -- or "light" for light mode
 vim.cmd([[colorscheme gruvbox]])
 
+vim.g.rainbow_active = 1
+
 require("gruvbox").setup({
   undercurl = true,
   underline = true,
